@@ -5,3 +5,7 @@ describe('String Calculator', () => {
     expect(add("")).toBe(0);
   });
 });
+
+it('should return the number when only one number is passed', () => {
+    expect(add("5")).toBe(5);
+  });
